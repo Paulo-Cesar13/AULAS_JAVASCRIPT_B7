@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(138, 106, 106);
+}
+
+html, body{
+    height: 100%;
+}
+
+header h1, h2, p{
+    margin: 50px 0;
+    padding: 0 50px;
+    color: rgba(252, 246, 248, 0.301);
+}
+
+header p{
+    font-size: 30px;
+}
