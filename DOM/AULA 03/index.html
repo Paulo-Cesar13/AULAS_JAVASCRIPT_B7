@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QUERYSELECTOR</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Selecione com Queryselector!
+        </h1>
+        <p>
+            Ele substitui os 4 comandos aprendidos anteriormente, com ele podemos alterar os elementos pelo Id, class, tag ou name.
+        </p>
+        <h2>
+            Exemplos:
+        </h2>
+        <p>
+            document.querySelector('#exemplo') - Altera pelo Id. <br>
+            document.querySelector('.exemplo') - Altera pela classe. <br>
+            document.querySelector('div') - Altera pela tag. <br>
+            document.querySelector('name') - Altera pelo Name. <br>
+        </p>
+        <p>
+            Obs: Quando houver mais de um elemento, no que ele retorna arry, ele mostrata apenas o primeiro item! <br>
+            para mostro todos os itens do elemento, deve-se usar o seguinte comando. <br>
+            <br>
+            document.querySelectorAll('.exemplo')
+        </p>
+        <h2>
+            Exemplo:
+        </h2>
+        <p>
+            documente.querySelector('#exemplo').innerHTML = 'Alteração';
+        </p>
+        <p>
+            Obs: Você identifica os elemento da mesma forma como faz no css, se for Id - # (jogo da velha)<br>
+            Se for class - . (ponto)
+        </p>
+    </header>
+    
+</body>
+</html>
