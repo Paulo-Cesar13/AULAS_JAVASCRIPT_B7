@@ -1,7 +1,7 @@
-var contador = 0;
+var contador = 10;
 
 while (contador !== 0) {
-    document.write(contador);
+    alert(contador);
     contador--;
 }
 
