@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MANIPULANDO ATRIBUTOS</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>
+                MANIPULANDO ATRIBUTOS
+            </h1>  
+        </div>
+    </header>
+    <section>
+        <div class="explic">
+            <h2>
+                EXPLICAÇÃO
+            </h2>
+            <p>
+                 Vamos manipular os atributos da seguinte forma, primeira vamos escolher duas fotos uma de cachorro outra de um gato, vamos criar dois botos, para alternar entre as fotos!
+            </p>
+        </div><!--explic-->
+    </section>
+    <section>
+        <div class="exemplo">
+            <h3>
+                EXEMPLO 
+            </h3>
+        </div>
+        <div class="img">
+            <img class="imagem" src="./IMGS/cachorro.jpg" alt=""><br>
+        </div>
+        <div class="bnt1">
+            <button onclick="trocarAtributo('cachorro.jpg', 'cachorro')" class="bot">cachorro</button>
+            <button onclick="trocarAtributo('gato.jpg','gato')" class="bot">gato</button>
+        </div><!--bnt1-->
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
