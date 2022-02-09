@@ -4,6 +4,6 @@ function somar (x, y) {
     return total;
 }
 
- somar(100, 300);
+ somar(100, 3000);
 
 
