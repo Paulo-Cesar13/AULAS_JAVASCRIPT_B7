@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: aqua;
+}
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+
+section h2{
+    width: 500px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+section p{
+    margin: 30px;
+    padding: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+section .function{
+    width: 100%;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+#titulo{
+    width: 500px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.btn1{
+    width: 300px;
+    margin: 15px;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 2px 3px black;
+    background-color: rgb(122, 111, 111);
+}
+
+.preto{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px red;
+}
+
+.vermelho{
+    background-color: red;
+    color: black;
+    box-shadow: 2px 3px white;
+}
+
+.branco{
+    background-color: white;
+    color: red;
+    box-shadow: 2px 3px black;
+}

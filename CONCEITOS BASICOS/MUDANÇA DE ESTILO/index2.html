@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>MUDANÇA DE ESTILO</title>
+</head>
+<body>
+    <header>
+        <h1>
+            MUDANDO O ESTILO!!
+        </h1>
+    </header>
+    <section>
+        <h2>
+            EXEMPLO
+        </h2>
+        <P>
+            As funcões abaixo, trocam os estilos entre si, com o evento onclick!!
+        </P>
+        <section>
+            <div class="function">
+                <p>
+                    function preto() { <br>
+                        limpar(); <br>
+                        document.getElementById("titulo").classList.add('preto');<br>
+                    } <br><br>
+                    
+                    function vermelho() {<br>
+                        limpar();<br>
+                        document.getElementById("titulo").classList.add('vermelho');<br>
+                    } <br><br>
+                    
+                    function branco() { <br>
+                        limpar(); <br>
+                        document.getElementById("titulo").classList.add('branco'); <br>
+                    } <br><br>
+                    
+                    function limpar() { <br>
+                        document.getElementById("titulo").classList.remove('preto');<br>
+                        document.getElementById("titulo").classList.remove('vermelho');<br>
+                        document.getElementById("titulo").classList.remove('branco');<br>
+                    } <br>
+                </p>
+            </div>
+        </section>
+    </section>
+    <section>
+
+        <h3 id="titulo">Seja Bem vindo!!</h3>
+
+        <button class="btn1" onclick="preto()">Preto</button>
+        <button class="btn1" onclick="vermelho()">Vermelho</button>
+        <button class="btn1" onclick="branco()">Branco</button>
+
+    </section>
+
+    <script src="script2.js"></script>
+    
+</body>
+</html>
