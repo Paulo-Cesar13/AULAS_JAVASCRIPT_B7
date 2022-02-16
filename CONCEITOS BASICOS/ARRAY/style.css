@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px;
+    display: inline-block
+    position: absolute;
+    background-color: aqua;
+}
+
+header{
+    width: 500px;
+    padding: 20px;
+    position: relative;
+    left: 400px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+header h1{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
