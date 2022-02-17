@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    max-width: 1400px;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.438);
+}
+
+header{
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    left: 350px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+header h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+
+section{
+    width: 800px;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: relative;
+    left: 400px;
+}
+
+section h2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: red;
+}
+
+section h3{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(83, 2, 2);
+}
+
+section p{
+    font-size: 19px;
+    font-style: italic;
+    text-align: justify;
+    color: white;
+}
+
+.dia{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 2px 3px black;
+}
