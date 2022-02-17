@@ -63,5 +63,5 @@ aside {
 }
 
 .menu-opened{
-    width: 200px;
+    width: 200px ! important;
 }
