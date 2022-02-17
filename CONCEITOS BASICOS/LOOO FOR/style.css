@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    max-width: 1400px;
+    position: absolute;
+    background-color: aqua;
+}
+
+h1 {
+    width: 400px;
+    position: relative;
+    left: 550px;
+    font-size: 80px;
+    margin: 25px;
+}
+
+#lista{
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 50px;
+}
