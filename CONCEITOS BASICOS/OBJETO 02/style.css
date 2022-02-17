@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    background-color: aqua;
+}
+
+header{
+    width: 500px;
+    margin: 20px;
+    position: relative;
+    left: 400px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+header h1{
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
