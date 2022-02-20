@@ -10,3 +10,8 @@ html, body{
     background-color: aqua;
 }
 
+p{
+    font-size: 200px;
+    text-align: center;
+    color: red;
+}
