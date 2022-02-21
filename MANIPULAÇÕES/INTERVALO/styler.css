@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    max-width: 1400px;
+    position: absolute;
+    background-color: aqua;
+}
+
+header{
+    width: 90%;
+    margin: 30px;
+    position: relative;
+    left: 600px;
+}
+
+header .topo {
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+    
+}
+
+.topo h1{
+    text-shadow: 1px 3px black;
+    color: white;
+
+}
