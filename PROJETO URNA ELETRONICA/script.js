@@ -10,16 +10,23 @@ let numero = document.querySelector('.b-1-3');
 //variaveis de ambiente
 
 let etapaAtual = 0;
-let numero ='';
+let numero = '';
+
 
 function comecarEtapa() {
     let etapa = etapas[etapaAtual];
     let numeroHtml = '';
 
-    for( let i = 0; i < etapa.numeros; i++) {
-        numeroHtml += '<div class="numero pisca"></div>';
-        
+    for(let i = 0; i < etapa.numeros; i++) {
+       /* if( i === 0) {
+            numeroHtml += '<div class="numero pisca"></div>';
+        } else {
+            numeroHtml += '<div class="numero"></div>';
+        }*/
+         numeroHtml += '<div class="numero"></div>';
+       
     }
+
 
     seuVotoPara.style.display = 'none';
     cargo.innerHTML = etapa.titulo;
@@ -37,11 +44,13 @@ function atualizaInterface() {
 
 //funções de controle
 function clicou(n) {
-//let elNumero = document.querySelector('.numero.piscou');
-    //if(elNumero !== null) {
-       // elNumero.innerHTML = n;
-       // numero = `${numero}${n}`;
-    //}
+    /*
+    let elNumero = document.querySelector('.numero.pisca');
+    if( elNumero !== null) {
+        elNumero.innerHTML = n;
+        numero = numero+n;
+    }
+    */
 };
 clicou();
 function branco() {
