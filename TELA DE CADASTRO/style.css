@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+
+header h1{
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 0px 3px 4px black;
+    color: white;
+}
+
+.screen{
+    display: flex;
+    height: 100%;
+}
+
+.leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.leftside img{
+    width: 500px;
+    height: auto;
+}
+
+.rightside{
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(175, 168, 168);
+}
+
+.rightside h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 7px;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 0px 3px 4px black;
+    color: white;
+}
+
+.rightside label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.rightside input{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: 0;
+}
+
+#botao{
+    font-size: 20px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px blueviolet;
+}
+
+.link a{
+    font-size: 18px;
+    font-style: italic;
+    text-shadow: 0px 1px 2px blueviolet;
+    text-decoration: none;
+    color: red;
+}
