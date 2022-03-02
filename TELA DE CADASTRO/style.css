@@ -7,6 +7,7 @@
 html, body{
     margin: 0;
     height: 100vh;
+    background-color: aquamarine;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
     align-items: center;
     margin: 10px;
     border-radius: 50px;
-    background-color: aqua;
+    background-color: rgb(4, 153, 153);
 }
 
 header h1{
@@ -88,4 +89,12 @@ header h1{
     text-shadow: 0px 1px 2px blueviolet;
     text-decoration: none;
     color: red;
+}
+
+.error {
+    font-size: 11px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
 }

@@ -21,10 +21,10 @@
             <h2>
                 Crie sua conta!!
             </h2>
-            <form action="" method="post">
+            <form action="cadastro.php" method="post" class="web13">
                 <label for="">
                     Seu Nome: <br>
-                    <input type="text" name="texto" id="Nome">
+                    <input type="text" name="texto" id="Nome" data-rules="required|min=5">
                 </label>
                 <label for="">
                     Seu E-mail: <br>
@@ -32,7 +32,7 @@
                 </label>
                 <label for="">
                     Sua Senha: <br>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" data-rules="required|min=8">
                 </label>
                 <label for="">
                     <input type="submit" name="botao" value="Cadastrar" id="botao">

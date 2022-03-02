@@ -74,5 +74,5 @@ let B7Validator = {
     }
 };
 
-let form = document.querySelector('.web13');
+let form = document.querySelector('.b7validator');
 form.addEventListener('submit', B7Validator.handleSubmit);
