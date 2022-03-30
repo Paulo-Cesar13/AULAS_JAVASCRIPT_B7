@@ -1,12 +1,10 @@
-// Initial Data
-
+//Inicial Data
 let currentQuestion = 0;
 
 showQuestion();
 
 //functions
-
-function showQuestion() {
+function showQuestion () {
     if(questions[currentQuestion]) {
         let q = questions[currentQuestion];
 
@@ -14,11 +12,15 @@ function showQuestion() {
         document.querySelector('.questionArea').style.display = 'block';
 
         document.querySelector('.question').innerHTML = q.question;
-        let optionHTML = '';
-        for(let i in q.option) {
-            optionHTML += `<div class="opition"><span>${parseInt(i)+1}</span> ${q.option[i]}</div>`;
+
+        let optionsHtml = '';
+
+        for(let i in q.options) {
+            optionsHtml += `<div data-op="${i}" class="option"><span>${parceInt(i)+1}</span> ${q.options[i]}</div>`;
         }
 
-        document.querySelector('.options').innerHTML = optionHTML;
+        document.querySelector('.options').innerHTML = optionsHtml;
+    } else {
+
     }
 }
